@@ -97,6 +97,11 @@ export type CreateUserParams = {
       name: string
     }
   }
+
+  export type EventFormProps = {
+    userId: string,
+    type: 'create' | 'update'
+  }
   
   // ====== CATEGORY PARAMS
   export type CreateCategoryParams = {
